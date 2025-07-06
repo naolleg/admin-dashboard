@@ -9,19 +9,17 @@ import SecurityIcon from '@mui/icons-material/Security';
 import SettingsIcon from '@mui/icons-material/Settings';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import DescriptionIcon from '@mui/icons-material/Description';
-import LayersIcon from '@mui/icons-material/Layers';
 import { AppProvider } from '@toolpad/core/AppProvider';
 import { DashboardLayout } from '@toolpad/core/DashboardLayout';
 import { DemoProvider, useDemoRouter } from '@toolpad/core/internal';
-import OrdersPage from '../pages/OrdersPage';
+import WalletPage from '../pages/WalletPage';
 import UserPage from '../pages/user/view/page';
 import ReportsPage from '../pages/ReportsPage';
-import SalesPage from '../pages/SalesPage';
+import SecurityPage from '../pages/SecurityPage';
 import MeetingRoomIcon from '@mui/icons-material/MeetingRoom';
 
-import IntegrationPage from '../pages/IntegrationPage';
-import Analaysis from '../pages/Analaysis';
-import TrafficPage from '../pages/TrafficPage';
+import ConfigurationPage from '../pages/ConfigurationPage';
+import AnalyticsPage from '../pages/AnalayticsPage';
 
 const NAVIGATION = [
     {
@@ -109,17 +107,15 @@ function DemoPageContent({ pathname }) {
         case 'users':
             return <UserPage />;
         case 'wallet':
-            return <OrdersPage />;
+            return <WalletPage />;
         case 'reports':
             return <ReportsPage />;
         case 'security':
-            return <SalesPage />;
+            return <SecurityPage />;
         case 'analytics':
-            return <TrafficPage />;
+            return <AnalyticsPage />;
         case 'configuration':
-            return <IntegrationPage />;
-        case 'dashboard':
-            return <Analaysis />;
+            return <ConfigurationPage />;
         default:
             return (
                 <Box

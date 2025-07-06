@@ -1,7 +1,7 @@
 import React from 'react';
 
-const IntergationPage = () => {
+const ComfigurationPage = () => {
     return <div>Configuration Page</div>;
 };
 
-export default IntergationPage; 
+export default ComfigurationPage; 

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const OrdersPage = () => {
+const WalletPage = () => {
     return <div>Wallet and financial Page</div>;
 };
 
-export default OrdersPage; 
+export default WalletPage; 

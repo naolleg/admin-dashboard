@@ -1,7 +1,7 @@
 import React from 'react';
 
-const SalesPage = () => {
+const SecurityPage = () => {
     return <div>Security Page</div>;
 };
 
-export default SalesPage; 
+export default SecurityPage; 
