@@ -1,7 +1,7 @@
 import { TextField, Button, Card, CardContent, Typography, Box, Link } from '@mui/material';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { login } from '../features/auth/authSlice';
+import { login } from '../../features/auth/authSlice';
 import { Link as RouterLink } from 'react-router-dom';
 
 export function LoginForm() {

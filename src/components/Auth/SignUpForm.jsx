@@ -29,7 +29,7 @@ export function SignUpForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData); // Replace this with actual signup dispatch or API call
+        console.log(formData);
     };
 
     return (
